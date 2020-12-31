@@ -8,6 +8,7 @@ body{
     overflow: hidden;
 }
 .header{
+    z-index: 2;
     position: absolute;
     left: 50%;
     top: 30%;
@@ -15,8 +16,18 @@ body{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    font-size: 64px;
+    font-size: 32px;
     text-shadow: 0px 5px 7px rgba(255, 255, 255, 1);
+}
+@media (min-width: 700px) {
+    .header{
+        font-size: 44px;
+    }
+}
+@media (min-width: 1024px) {
+    .header{
+        font-size: 64px;
+    }
 }
 .header__mainHeader{
     margin: 0;
