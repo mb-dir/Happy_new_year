@@ -29,9 +29,57 @@ body{
     height: 80vh;
     width: 80%;
     margin: 0 auto;
+    position: relative;
 }
 .starsWrapper__star{
     width: 20px;
     height: 20px;
 }
-
+.starsWrapper__star--1{
+    fill: #FFFF14;
+}
+.starsWrapper__star--2{
+    fill: #FF6208;
+}
+.starsWrapper__star--3{
+    fill: #39FF08;
+}
+.starsWrapper__star--4{
+    fill: #FF00B8;
+}
+.starsWrapper__star--5{
+    fill: #E80749;
+}
+.starsWrapper__star--6{
+    fill: #08F7FF;
+}
+.starsWrapper__star--7{
+    fill: #DF08FF;
+}
+.starsWrapper__star--8{
+    fill: #00D6FF;
+}
+.starsWrapper__star--9{
+    fill: #D1E807;
+}
+.starsWrapper__star--10{
+    fill: #00BDB7;
+}
+.starsWrapper__star--11{
+    fill: #FFD608;
+}
+.starsWrapper__star--12{
+    fill: #BD4B00;
+}
+.starsWrapper__star--13{
+    fill: #FF0095;
+}
+.starsWrapper__star--14{
+    fill: #5A00E3;
+}
+.starsWrapper__star--15{
+    fill: #FF5614;
+}
+.starsWrapper__star--16{
+    fill: #00FFAF;
+}
